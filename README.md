@@ -21,20 +21,36 @@ Before execute CNN models:
 $ pip install keras
 $ pip install tensorflow
 $ pip install opencv-python
+$ pip install Pillow
 ```
 
 Before execute the web app:
 
 ```
+$ pip install keras
+$ pip install tensorflow
+$ pip install opencv-python
+$ pip install Pillow
+$ pip install bs4
+$ pip install requests
+$ pip install img2pdf
+$ pip install html2image
+
 py -3 -m venv venv
 venv\bin\activate
 $ pip install Flask
+```
 
+To Execute the web app:
+```
 set FLASK_APP=app.py
 $ env:FLASK_APP = "app.py"
 $ env:FLASK_ENV = "development"
 python -m flask run 
 ```
+### After running the execution code, please enter the website:
+http://127.0.0.1:5000/
+
 For more detail please look at [Flask Installation Page](https://flask.palletsprojects.com/en/2.1.x/installation/)
 
 ## EXECUTION STEPS
